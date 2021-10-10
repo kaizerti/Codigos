@@ -1,0 +1,27 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    background-color: black;
+    
+
+}
+
+div:hover {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    
+}
+

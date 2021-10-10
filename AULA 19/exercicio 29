@@ -1,0 +1,8 @@
+(1) O em equivale a formatação de medida do elemento pai e o rem equivale a formatação de do html/root.
+
+(2)Variável é criada no seletor root.
+
+
+:root {
+--nome_da_var: valor
+}

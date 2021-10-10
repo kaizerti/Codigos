@@ -1,0 +1,10 @@
+(1)background: linear gradiente (red, black).
+
+(2)Não, deve ser usada apenas em casos específicos. O CSS pode ser colocado
+no corpo do HTML, mas a grande maioria dos casos deve-se criar um arquivo 
+próprio para o CSS.
+
+
+(3)Pixel é unidade de medida fixa, estática, ela tem algumas limitações.
+A unidade de medida percentual  possui uma flexibilidade maior a página, é mais 
+recomendada para as dimensões de largura.

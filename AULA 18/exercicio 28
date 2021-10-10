@@ -1,0 +1,4 @@
+(1)Pode fazer pelo dev tools, selecionar o root/html e olhar no dev tools no parametro de calculado, geralmente é entre 16 e 18.
+
+
+(2) Não, dev tool não altera. Alteração no dev tools é virtual não altera o arquivo original.

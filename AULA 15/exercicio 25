@@ -1,0 +1,9 @@
+(1) nome do elemento, id e classe.
+
+
+(2)É fazer uma referência para uma referencia para um local interno no mesmo 
+documento, pode ser no mesmo diretório localhost ou externo que é um iperlink ou seja
+direcionar o usuário para uma outra página.
+
+
+(3)<nav> </nav> PARA NAVEGAÇÕES.

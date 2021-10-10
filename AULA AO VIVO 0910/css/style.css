@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    margin: 10px auto;
+    justify-content: space-between;
+    
+}
+
+/* teg semantica é uma teg especifica para referenciar alguma coisa. */
+
+#principal {        /* elemento pai que é o main */
+    width: 50%;
+    height: auto;
+    background-color: cornflowerblue;
+    margin: 10px auto;
+    height: 400px;
+    padding: 20px;
+    gap: 10px;
+    }
+
+    main > p{
+        padding: 4px;
+        
+    }
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    background-color: #000;
+    position: fixed;
+    color: #fff;
+    bottom: 0;
+     
+}               /* footer é o rodapé, mas o navegador não sabe disso, o desenvolvedor
+                    é que tem que dizer que se trata de um rodapé e tem que
+                    posicionar, informar através da renderização no css e pra isso
+                    precisa aplicar o position absolute e aplicar também o bottom 0
+                    e se quiser por o footer a direita ou esquerda é usar o left
+                    e o right.
+                    display: flex deixa os elementos em linha e o display
+                    collum deixa em coluna*/
+
+
+    div {
+        background-color: cornsilk;
+        height: 50px;
+        width: 70px;
+        
+    }
+
+    .flex {
+        display: flex;
+
+    }
+
+    .center-hv {
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    #menu{
+        list-style: none;
+        background-color: darkorchid;
+        width: 100%;
+        height: 20px;
+    }
+
+    #header-titulo, nav{
+            background-color: yellowgreen;
+            width: 200px;
+    }
+
+    .coluna {
+        flex-direction: column ;
+    }
+
