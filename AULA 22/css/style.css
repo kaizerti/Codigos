@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+main{
+    margin: 30px auto;
+    width: 600px;
+    height: auto;
+    border: 1px solid lightcoral;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+div{
+    width: 100px;
+    padding: 10px;
+   /* background-color: rebeccapurple;*/
+    margin: 2px;
+
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+
+.tamanhoFixo{
+    height: 100px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+}
+
+.fex{
+    display: flex;
+}
+
+#content {
+    background-color:darkcyan;
+    width: 70%;
+    height: 100vw;
+}
+
+#barra{
+    background-color: chartreuse;
+    width: 30%;
+    height: 100vw;
+}
+
+#ajuste{
+    width: 100% ;
+    height: auto;
+    display: flex;
+}
