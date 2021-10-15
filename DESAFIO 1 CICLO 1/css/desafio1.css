@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    font-family: helvetica;
+}
+
+header{
+    top: 0;
+}
+
+.logo{
+    width: 90%;
+    margin: auto 100px;
+    justify-content: flex-end;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+ul li{
+    padding: 5px;
+    border: none;
+    width: 100px;
+    margin-top: 5px;
+    text-align: center;        
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffff;        
+}
+
+
+ul li .verm:hover{
+    background-color: red;    
+}
+
+
+
+.cor {
+    background-color: #f9a825;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+main{
+    position: relative;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.teste{
+    display: flex;
+    border-right: 2px dotted black;
+    padding: 20px 2px;
+    }
+
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    
+}
+
+.conteudo div{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    background-color: #fafafa;
+    
+}
+
+
+
+input[type="text"]{
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+        
+}
+
+.mensagem{
+    display: flex;
+    background-color: #212121;
+    font-family: helvetica;  
+    
+}
+
+div a.btn {
+    padding: 5px;
+    font-size: 15px;
+    font-family: helvetica;
+    color: #fff;
+    display: flex;
+    background-color: #212121;
+    border-radius: 10px;
+    justify-content: center;
+    width: 80%;
+    text-decoration: none;
+}
+
+div.content-btn{
+    padding: 10px;
+    font-size: 20px;
+    font-family: helvetica;
+    color: #212121;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+footer{
+    bottom: 0;
+    height: 80px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
