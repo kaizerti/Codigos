@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 6 Variaveis e funções</title>
+</head>
+
+
+<script>
+
+/*var qualquer; variavel global está fora do {}*/
+/*let qq = "variavel let"; /*variavel global (esta fora do {})*/
+/*const valorConstante= 100; /*variavel global (esta fora do {})*/
+
+
+/*if(true){
+    console.log(valorConstante);
+    var varDentroDoIf = "Estou dentro do IF sou uma var";
+    let letDentroDoIf = "Sou uma let e estou dentro da IF";
+}
+console.log(letDentroDoIf);
+*/
+
+//literal 
+function soma(){
+    console.log(1 + 3);
+}
+
+//soma();
+
+function concatenarNome(){
+var nome = "Kaizer";
+var sobreNome = "De Souza";
+alert(nome + sobreNome);
+}
+
+//concatenarNome();
+
+function novaConcatenarNome(nome, sobrenome){
+    document.write(nome +" "+ sobrenome);
+}
+
+novaConcatenarNome("Kaizer", "De Souza");
+
+
+//função anonima
+
+let semNome = function(){
+    alert("Estou em uma função anonima");
+
+}
+
+//semNome();
+
+let funComPars = function(idade, idadePar){
+    if(idade > idadePar){
+        alert("Você tem idade maior que "+ idadePar);
+
+    } else {
+        alert("Você tem idade menor que "+ idadePar);
+    }
+}
+funComPars(20, 18);
+funComPars(17, 18);
+</script>
+
+
+<body>
+    
+</body>
+</html>
