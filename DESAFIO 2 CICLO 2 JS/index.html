@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/desafio2 JS.css">
+    <script src="script.js"></script>
+    <title>DESAFIO 2 JS</title>
+</head>
+<body>
+        <header class="flex">
+        <h1 class="titulo1">ME ACHA!</h1>
+        <h2 class="titulo2">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div id="content-base" class="flex justify-content">
+        <div id="logo-principal" class="flex justify-content">
+        <span class="material-icons logo">travel_explore</span>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="box-custom flex justify-content">
+            <form>
+                <fieldset>
+                    <label for="nomeUsu" class="flex">CEP</label>
+                    <input type="text" name="cep" required>
+                     </label>
+                    <label for="nomeUsu" class="flex">RUA</label>
+                    <input type="text" name="rua" readonly>
+                </label>
+                <label for="nomeUsu" class="flex">BAIRRO</label>
+                    <input type="text" name="bairro" readonly>
+                </label>
+                <label for="nomeUsu" class="flex">CIDADE</label>
+                    <input type="text" name="cidade" readonly>
+                </label>
+                <label for="nomeUsu" class="flex">UF</label> 
+                    <input type="text"name="uf" readonly>
+                </label>
+
+                <div class="display-btn flex justify-content">
+                
+                    
+                    <input id="buscarCep" type="button" value="BUSCAR" name="buscar">
+                
+                
+                </div>
+            
+            </fieldset>
+        
+            </form>
+
+        </div>
+    </main>
+    <footer></footer> 
+
+</body>
+</html>
